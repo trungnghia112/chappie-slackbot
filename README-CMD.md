@@ -1,3 +1,12 @@
+# 
+# Deloy
+#
+# IMVN
+$ HUBOT_SLACK_TOKEN=xoxb-15128939907-T6O8tVHeOFcUHPrULGS3vY37 ./bin/hubot --adapter slack
+# trungnghia112
+$ HUBOT_SLACK_TOKEN=xoxb-15135766178-0gKrV6rY6ePwDe60OQgXtRBL ./bin/hubot --adapter slack
+
+
 #
 # Create
 #
@@ -29,3 +38,19 @@ $ cd chappie-slackbot
 $ git add .
 $ git commit -am "make it better"
 $ git push heroku master
+
+
+#
+# Some bug
+#
+
+# node update
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+
+
+#
+# Setup
+#
+$ npm install -g hubot coffee-script yo generator-hubot
