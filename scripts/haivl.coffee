@@ -18,7 +18,7 @@ escape_html_characters = (text)->
   return text
 
 module.exports = (robot) ->
-  robot.respond /test$/i, (msg) ->
+  robot.respond /have haivl$/i, (msg) ->
     msg.http("http://haivn.com/photo/page/#{getRandomArbitrary(1,100)}")
     .get() (err, res, body) ->
       handler = new HtmlParser.DefaultHandler()
